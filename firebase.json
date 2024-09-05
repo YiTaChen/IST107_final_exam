@@ -1,0 +1,16 @@
+{
+  "hosting": {
+    "public": "FinalExam-IST107-CCTB",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}

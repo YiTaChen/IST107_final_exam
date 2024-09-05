@@ -137,7 +137,7 @@ function hasSameTask(taskStr) {
   }
 }
 
-// remove li element
+// remove li element from ul
 function deleteLi(event) {
   let btn = event.target;
   let liTmp = btn.parentElement;
