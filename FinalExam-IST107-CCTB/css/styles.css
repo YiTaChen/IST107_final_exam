@@ -7,7 +7,7 @@
 body {
   background: #ffffff;
   text-align: center;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 
 .intro {
@@ -27,16 +27,15 @@ p {
 
 #first {
   margin-top: 10px;
-  color: #FFCD5D;
+  color: #ffcd5d;
 }
 
 #second {
-  color: #51DF70;
-
+  color: #51df70;
 }
 
 #third {
-  color: #025F70;
+  color: #025f70;
   margin-bottom: 30px;
 }
 
@@ -61,17 +60,34 @@ p {
 }
 
 #enter:hover {
-  background-color: #02798F;
-  color: #FFCD5D;
+  background-color: #02798f;
+  color: #ffcd5d;
+}
+
+#enterUser {
+  border: none;
+  padding: 5px 15px;
+  border-radius: 5px;
+  color: #ffffff;
+  background-color: #011a1f;
+  transition: all 0.75s ease;
+  -webkit-transition: all 0.75s ease;
+  -moz-transition: all 0.75s ease;
+  -ms-transition: all 0.75s ease;
+  -o-transition: all 0.75 ease;
+  font-weight: normal;
+}
+
+#enterUser:hover {
+  background-color: #02798f;
+  color: #ffcd5d;
 }
 
 ul {
   text-align: left;
   margin-top: 20px;
   display: inline-block;
-
 }
-
 
 li {
   list-style: none;
@@ -96,7 +112,7 @@ li:hover {
   color: #000;
 }
 
-li>button {
+li > button {
   font-weight: normal;
   background: none;
   border: none;
@@ -112,10 +128,9 @@ input {
   border: none;
 }
 
-
 .done {
-  background: #51DF70 !important;
-  color: #00891E;
+  background: #51df70 !important;
+  color: #00891e;
 }
 
 .delete {
